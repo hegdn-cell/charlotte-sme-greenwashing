@@ -12,7 +12,13 @@ A natural language processing pipeline that detects greenwashing signals on smal
 
 GSI = (density x 0.30) + (positivity x 0.35) + (vagueness x 0.35)
 
-Density is the percent of total sentences that contain climate claims. Positivity is the percent of climate sentences with positive sentiment. Vagueness is the percent of commitment sentences that lack specifics. GSI ranges from 0.0 (no greenwashing signal) to 1.0 (strong signal).
+The GSI combines three factors:
+- Density: percent of all sentences on the site that contain climate claims
+- Positivity: how positive the climate sentences are (0 to 1)
+- Vagueness: percent of claims that lack any specific detail
+
+GSI ranges from 0.0 (no greenwashing signal) to 1.0 (strong signal).
+
 
 ## Files
 
